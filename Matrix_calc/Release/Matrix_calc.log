@@ -1,0 +1,32 @@
+﻿Build started 26.10.2021 14:10:58.
+     1>Project "G:\Мой диск\Laptop\Курсач\Matrix_calc\Matrix_calc\Matrix_calc.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Cursovaya.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MainForm.cpp
+         MainForm.cpp
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(983): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1003): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1004): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1077): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1079): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1097): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1098): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1338): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1339): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1351): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1352): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1364): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1365): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\мой диск\laptop\курсач\matrix_calc\matrix_calc\MainForm.h(1366): warning C4018: '<' : signed/unsigned mismatch
+     1>MainForm.cpp(6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Мой диск\Laptop\Курсач\Matrix_calc\Release\Matrix_calc.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\Cursovaya.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Мой диск\Laptop\Курсач\Matrix_calc\Release\Matrix_calc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\MainForm.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>.NETFramework,Version=v4.5.AssemblyAttributes.obj : warning LNK4099: PDB 'vc120.pdb' was not found with '.NETFramework,Version=v4.5.AssemblyAttributes.obj' or at 'G:\Мой диск\Laptop\Курсач\Matrix_calc\Release\vc120.pdb'; linking object as if no debug info
+     1>MainForm.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'MainForm.obj' or at 'G:\Мой диск\Laptop\Курсач\Matrix_calc\Release\vc120.pdb'; linking object as if no debug info
+         Matrix_calc.vcxproj -> G:\Мой диск\Laptop\Курсач\Matrix_calc\Release\Matrix_calc.exe
+     1>Done Building Project "G:\Мой диск\Laptop\Курсач\Matrix_calc\Matrix_calc\Matrix_calc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.01

@@ -1,0 +1,30 @@
+﻿Build started 16.10.2021 13:52:55.
+     1>Project "C:\Users\chici\Desktop\Matrix_calc\Matrix_calc\Matrix_calc.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Cursovaya.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MainForm.cpp
+         MainForm.cpp
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(715): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(735): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(736): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(809): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(811): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(829): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(830): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1070): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1071): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1083): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1084): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1096): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1097): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chici\desktop\matrix_calc\matrix_calc\MainForm.h(1098): warning C4018: '<' : signed/unsigned mismatch
+     1>MainForm.cpp(6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\chici\Desktop\Matrix_calc\Debug\Matrix_calc.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Cursovaya.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\chici\Desktop\Matrix_calc\Debug\Matrix_calc.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MainForm.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Matrix_calc.vcxproj -> C:\Users\chici\Desktop\Matrix_calc\Debug\Matrix_calc.exe
+     1>Done Building Project "C:\Users\chici\Desktop\Matrix_calc\Matrix_calc\Matrix_calc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
